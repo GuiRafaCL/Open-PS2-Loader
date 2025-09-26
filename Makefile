@@ -318,8 +318,6 @@ clean:	download_lwNBD
 	$(MAKE) -C modules/mcemu USE_SMB=1 clean
 	echo " -genvmc"
 	$(MAKE) -C modules/vmc/genvmc clean
-	echo " -lwnbdsvr"
-	$(MAKE) -C modules/network/lwNBD/ TARGET=iop clean
 	echo " -udptty-ingame"
 	$(MAKE) -C modules/debug/udptty-ingame clean
 	echo " -ps2link"
