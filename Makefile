@@ -791,9 +791,6 @@ languages: $(ENGLISH_TEMPLATE_YML) $(TRANSLATIONS_YML) $(ENGLISH_LNG) $(TRANSLAT
 download_lng:
 	./download_lng.sh
 
-download_lwNBD:
-	./download_lwNBD.sh
-
 download_cfla:
 	./download_cfla.sh
 
